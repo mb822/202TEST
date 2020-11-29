@@ -53,7 +53,7 @@ if (isset($_POST["search"]) && !empty($query)) {
             <option value="none">Sort by: None</option>
             <option value="hl" >Price: High to Low</option>
             <option value="lh" >Price: Low to High</option>
-
+	</select>
 
     <input type="submit" value="Search" name="search"/>
 </form>
